@@ -7,7 +7,6 @@ $accentColor: #971C28;
 	font-family: 'Open Sans';
 	font-size: 18px;
 	font-weight: 100;
-	margin-bottom: 4em;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 
@@ -32,7 +31,6 @@ $accentColor: #971C28;
 		line-height: 1.5em;
 		margin: 2em auto;
 		text-align: center;
-		width: percentage(780/1170);
 	}
 
 	.lp-valentijn-strikethrough{
@@ -47,14 +45,8 @@ $accentColor: #971C28;
 	.lp-valentijn-cta{
 		background: $accentColor;
 		color: #ffffff;
-		display: block;
 		font-size: 14px;
-		height: 2.857em;
-		line-height: 2.857em;
-		margin: 4em auto 0;
-		padding: 0 1.5em;
 		text-decoration: none;
-		width: 17.143em;
 
 		&:after{
 			//content: '';
